@@ -43,7 +43,7 @@ export const Image: React.FC<MediaProps> = props => {
 
     const filename = fullFilename
 
-    src = `https://markuskralpp-production.up.railway.app/media/${filename}`
+    src = `/media/${filename}`
     console.log(process.env.NEXT_PUBLIC_SERVER_URL)
   }
 
